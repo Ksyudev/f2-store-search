@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Card</title>
+
+    <link rel="shortcut icon" href="./assets/images/favicon.png">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="./assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script type='module' src="./assets/js/app.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container py-3">
+        <div class='text-right d-flex'>
+            
+            <span class='mx-4 align-items-center'>
+                <label for='sort-up'>Price Up</label>
+                <input id='sort-up' class='mx-2' type="radio" value='up' name='sort'>
+            </span>
+            <span class='me-auto mx-4 align-items-center'>
+                <label for='sort-down'>Price Down</label>
+                <input id='sort-down' class='mx-2' type="radio" value='down' name='sort'>
+            </span>
+                <input id='search' class=' align-items-center' type="text" placeholder="Search...">
+           
+        </div>
+            <main class="row row-cols-4">
+             <div class="card-list">
+              </div>
+            </main>
+
+    </div>
+
+</body>
+
+</html>
